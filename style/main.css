@@ -110,3 +110,25 @@ body {
     column-gap: 11px;
     transition: .5s;
 }
+
+.products {
+    margin-top: 30px;
+}
+
+.row {
+    display: flex;
+    column-gap: 30px;
+}
+
+.row-desc {
+    max-width: 538px;
+    width: 100%;
+    color: var(--light);
+    font-family: var(--MM);
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.mt-1 {
+    margin-top: 33px;
+}
