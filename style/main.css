@@ -1,134 +1,161 @@
 @import url(./fonts.css);
 
 :root {
-    --primary: #151515;
-    --secondary: #282828;
-    --light: #ffffff;
-    --MB: "Montserrat-Bold";
-    --MM: "Montserrat-Medium";
-    --ProstoOne: "ProstoOne";
+  --primary: #151515;
+  --secondary: #282828;
+  --light: #ffffff;
+  --MB: "Montserrat-Bold";
+  --MM: "Montserrat-Medium";
+  --ProstoOne: "ProstoOne";
 }
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
 }
 
 body {
-    background-color: var(--primary);
+  background-color: var(--primary);
 }
 
 .container {
-    max-width: 1150px;
-    width: 100%;
-    padding: 0 20px;
-    margin: 0 auto;
+  max-width: 1150px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
 }
 
 .content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .page-header {
-    background-color: var(--secondary);
-    padding-block: 6px;
+  background-color: var(--secondary);
+  padding-block: 6px;
 }
 
 .header-nav {
-    display: flex;
-    align-items: center;
-    column-gap: 30px;
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
 }
 
 .logo {
-    width: 100px;
-    height: auto;
+  width: 100px;
+  height: auto;
 }
 
 .logo img {
-    width: 100%;
+  width: 100%;
 }
 
 .header-nav_link {
-    color: var(--light);
-    font-family: var(--MB);
-    font-size: 20px;
+  color: var(--light);
+  font-family: var(--MB);
+  font-size: 20px;
+  transition: 0.3s;
 }
 
 .user-action {
-    display: flex;
-    align-items: center;
-    column-gap: 25px;
+  display: flex;
+  align-items: center;
+  column-gap: 25px;
 }
 
 .user-action_link {
-    width: 20px;
-    height: auto;
+  width: 20px;
+  height: auto;
 }
 
 .user-action_link img {
-    width: 100%;
+  width: 100%;
 }
 
 .banner {
-    width: 100%;
-    height: 635px;
-    background-image: url(../image/images/banner.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    row-gap: 38px;
+  width: 100%;
+  height: 635px;
+  background-image: url(../image/images/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 38px;
 }
 
 .banner-title {
-    color: var(--light);
-    font-family: var(--ProstoOne);
-    font-size: 100px;
-    line-height: 75px;
-    text-transform: capitalize;
+  color: var(--light);
+  font-family: var(--ProstoOne);
+  font-size: 100px;
+  line-height: 75px;
+  text-transform: capitalize;
 }
 
 .banner-link {
-    background-color: var(--light);
-    padding: 13px 18px 13px 14px;
-    color: #171718;
-    font-family: var(--MM);
-    font-size: 20px;
-    text-transform: uppercase;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    column-gap: 11px;
-    transition: .5s;
+  background-color: var(--light);
+  padding: 13px 18px 13px 14px;
+  color: #171718;
+  font-family: var(--MM);
+  font-size: 20px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  column-gap: 11px;
+  transition: 0.5s;
+}
+
+.banner-link:hover {
+  color: var(--light);
+  background-color: var(--primary);
 }
 
 .products {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .row {
-    display: flex;
-    column-gap: 30px;
+  display: flex;
+  column-gap: 30px;
 }
 
 .row-desc {
-    max-width: 538px;
-    width: 100%;
-    color: var(--light);
-    font-family: var(--MM);
-    font-size: 22px;
-    font-weight: 500;
+  max-width: 538px;
+  width: 100%;
+  color: var(--light);
+  font-family: var(--MM);
+  font-size: 22px;
+  font-weight: 500;
 }
 
 .mt-1 {
-    margin-top: 33px;
+  margin-top: 33px;
+}
+
+.row-repeat {
+  display: flex;
+  column-gap: 30px;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.mt-2 {
+  margin-top: 50px;
+}
+
+.row-repeat_desc {
+  max-width: 540px;
+  width: 100%;
+  color: var(--light);
+  font-family: var(--MM);
+  font-size: 22px;
+  font-weight: 500;
 }
