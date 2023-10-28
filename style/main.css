@@ -21,6 +21,10 @@ body {
   background-color: var(--primary);
 }
 
+button {
+  border: none;
+}
+
 .container {
   max-width: 1150px;
   width: 100%;
@@ -58,7 +62,6 @@ body {
   color: var(--light);
   font-family: var(--MB);
   font-size: 20px;
-  transition: 0.3s;
 }
 
 .user-action {
@@ -117,6 +120,10 @@ body {
   background-color: var(--primary);
 }
 
+.banner-link:hover > img {
+  color: var(--light);
+}
+
 .products {
   margin-top: 30px;
 }
@@ -158,4 +165,114 @@ body {
   font-family: var(--MM);
   font-size: 22px;
   font-weight: 500;
+}
+
+.position {
+  margin-block: 50px 79px;
+}
+
+.content-position {
+  display: flex;
+  align-items: center;
+  column-gap: 88px;
+}
+
+.left-side-text,
+.right-side-text {
+  color: var(--light);
+  text-align: left;
+  font-family: var(--MB);
+  font-size: 20px;
+  font-weight: 700;
+  max-width: 333px;
+  width: 100%;
+}
+
+.left-side-text {
+  text-align: right;
+}
+
+.position-image {
+  width: 268px;
+  position: relative;
+}
+
+.position-image::before,
+.position-image::after {
+  content: "";
+  width: 61px;
+  height: 1px;
+  background: #c4c4c4;
+  position: absolute;
+}
+
+.position-image::before {
+  top: 50%;
+  left: -75px;
+}
+
+.position-image::after {
+  top: 50%;
+  right: -75px;
+}
+
+.phone-card {
+  background-color: var(--light);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+  width: 255px;
+  border-radius: 6px;
+  padding: 15px;
+}
+
+.phone-card_title {
+  color: #000;
+  font-family: var(--MB);
+  font-size: 20px;
+}
+
+.phone-card img {
+  width: max-content;
+}
+
+.phone-card_price {
+  color: #000;
+  font-family: var(--MM);
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.phone-card_btn {
+  background-color: var(--primary);
+  color: var(--light);
+  padding: 7px 57px;
+  transition: 0.4s;
+  border: 1px solid var(--primary);
+}
+
+.phone-card_btn:hover {
+  color: var(--primary);
+  background-color: var(--light);
+  border: 1px solid var(--primary);
+  cursor: pointer;
+}
+
+.page-footer {
+  margin-top: 55px;
+  background-color: var(--secondary);
+  padding-block: 80px;
+}
+
+.page-footer_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 30px;
+}
+
+.footer-nav {
+  display: flex;
+  column-gap: 29px;
 }
