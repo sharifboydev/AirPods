@@ -120,10 +120,6 @@ button {
   background-color: var(--primary);
 }
 
-.banner-link:hover > img {
-  color: var(--light);
-}
-
 .products {
   margin-top: 30px;
 }
@@ -131,6 +127,12 @@ button {
 .row {
   display: flex;
   column-gap: 30px;
+}
+
+.align-center {
+  margin-block: 50px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .row-desc {
@@ -144,27 +146,6 @@ button {
 
 .mt-1 {
   margin-top: 33px;
-}
-
-.row-repeat {
-  display: flex;
-  column-gap: 30px;
-  align-items: center;
-  flex-direction: row-reverse;
-  justify-content: space-between;
-}
-
-.mt-2 {
-  margin-top: 50px;
-}
-
-.row-repeat_desc {
-  max-width: 540px;
-  width: 100%;
-  color: var(--light);
-  font-family: var(--MM);
-  font-size: 22px;
-  font-weight: 500;
 }
 
 .position {
