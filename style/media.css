@@ -1,0 +1,5 @@
+@media (max-width: 993px) {
+    .header-nav {
+        display: none;
+    }
+}
