@@ -1,5 +1,46 @@
-@media (max-width: 993px) {
-    .header-nav {
-        display: none;
+@media (max-width: 768px) {
+  .user-action,
+  .header-nav_link {
+    display: none;
+  }
+
+  .logo {
+    display: flex;
+  }
+
+  .banner {
+    height: 400px;
+  }
+
+  .burger-menu {
+    display: flex;
+  }
+
+  .banner-title {
+    font-size: 76px;
+    line-height: 25px;
+    row-gap: 25px;
+  }
+
+  .banner-link {
+    font-size: 18px;
+    padding: 10px 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .banner {
+    height: 250px;
+    row-gap: 25px;
+  }
+
+  .banner-title {
+    font-size: 45px;
+    line-height: 18px;
     }
+
+  .banner-link {
+    font-size: 14px;
+    padding: 8px 10px;
+  }
 }
