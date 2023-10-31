@@ -79,21 +79,42 @@ button {
   width: 100%;
 }
 
+.user-links {
+  display: flex;
+  column-gap: 30px;
+}
+
 .burger-menu {
   width: 30px;
-  height: 18px;
+  height: 20px;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: column;
   display: none;
 }
 
 .burger-menu div {
   width: 100%;
-  display: block;
   height: 2px;
-  background-color: var(--light);
+  background-color: #fff;
+  align-self: center;
+  position: relative;
+}
+
+.burger-menu div::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  position: absolute;
+  top: -10px;
+}
+
+.burger-menu div::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  position: absolute;
+  bottom: -10px;
 }
 
 .banner {
