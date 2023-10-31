@@ -1,3 +1,36 @@
+@media (max-width: 993px) {
+  .banner {
+    height: 400px;
+  }
+
+  .row {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+
+  .align-center {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+
+  .product-img-1,
+  .product-img-2 {
+    max-width: 400px;
+    width: 100%;
+  }
+
+  .row-desc {
+    max-width: 400px;
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+}
+
 @media (max-width: 768px) {
   .user-action,
   .header-nav_link {
@@ -9,7 +42,7 @@
   }
 
   .banner {
-    height: 400px;
+    height: 300px;
   }
 
   .burger-menu {
@@ -30,17 +63,29 @@
 
 @media (max-width: 576px) {
   .banner {
-    height: 250px;
+    height: 200px;
     row-gap: 25px;
   }
 
   .banner-title {
     font-size: 45px;
     line-height: 18px;
-    }
+  }
 
   .banner-link {
     font-size: 14px;
     padding: 8px 10px;
+  }
+
+  .row-desc {
+    max-width: 300px;
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .product-img-1,
+  .product-img-2 {
+    max-width: 300px;
+    width: 100%;
   }
 }
