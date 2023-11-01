@@ -1,3 +1,12 @@
+@media (max-width: 1080px) {
+  .phone-box {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+  }
+}
+
 @media (max-width: 993px) {
   .banner {
     height: 600px;
@@ -35,6 +44,23 @@
   .product-img-2 {
     max-width: 350px;
     width: 100%;
+  }
+
+  .content-position {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+  }
+
+  .position-image::after,
+  .position-image::before {
+    display: none;
+  }
+
+  .left-side-text,
+  .right-side-text {
+    text-align: center;
   }
 }
 
@@ -119,6 +145,19 @@
   .product-img-1,
   .product-img-2 {
     max-width: 300px;
+    width: 100%;
+  }
+
+  .left-side-text,
+  .right-side-text {
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .position-image_img {
+    max-width: 250px;
     width: 100%;
   }
 }
