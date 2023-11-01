@@ -1,0 +1,72 @@
+@media (max-width: 993px) {
+  .banner {
+    height: 600px;
+  }
+
+  .banner-title {
+    font-size: 80px;
+  }
+
+  .banner-link {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-nav_link {
+    font-size: 1rem;
+  }
+
+  .logo {
+    width: 80px;
+  }
+
+  .banner {
+    row-gap: 30px;
+    height: 550px;
+  }
+
+  .banner-title {
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 576px) {
+  .banner {
+    row-gap: 20px;
+    height: 500px;
+  }
+
+  .banner-title {
+    font-size: 50px;
+  }
+
+  .banner-link {
+    font-size: 14px;
+    padding: 10px 13px 10px 13px;
+  }
+}
+
+@media (max-width: 470px) {
+  .header-nav,
+  .user-action {
+    display: none;
+  }
+
+  .burger-menu {
+    display: flex;
+  }
+
+  .logo {
+    width: 70px;
+  }
+
+  .banner {
+    height: 450px;
+  }
+
+  .banner-title {
+    font-size: 40px;
+    line-height: 100%;
+  }
+}
