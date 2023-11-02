@@ -41,6 +41,10 @@ button {
 .page-header {
   background-color: var(--secondary);
   padding-block: 6px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .header-nav {
