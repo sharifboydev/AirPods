@@ -158,6 +158,10 @@ button {
   background-color: var(--primary);
 }
 
+.banner-link:hover svg path {
+  fill: var(--light);
+}
+
 .products {
   margin-top: 30px;
 }
