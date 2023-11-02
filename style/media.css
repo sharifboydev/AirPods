@@ -1,9 +1,10 @@
-@media (max-width: 1080px) {
+@media (max-width: 1150px) {
   .phone-box {
     display: flex;
-    flex-direction: column;
-    row-gap: 20px;
     align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
   }
 }
 

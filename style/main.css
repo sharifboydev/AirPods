@@ -250,6 +250,10 @@ button {
   padding: 15px;
 }
 
+.phone-box {
+  flex-wrap: wrap;
+}
+
 .phone-card_title {
   color: #000;
   font-family: var(--MB);
